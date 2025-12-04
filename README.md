@@ -3,7 +3,7 @@
 ## Overview
 This tool performs haplotype genotyping from long-read sequencing data (e.g., ONT, PacBio) for a **single microhaplotype locus**. It is designed for forensic genetics research where long-fragment microhaplotypes (like MiniHaps) are used.
 
-![Workflow Diagram](workflow_diagram.png)
+![Workflow Diagram](workflow_diagram.jpg)
 
 *Figure: Schematic workflow of the genotyping logic.*
 
@@ -75,4 +75,5 @@ This tool performs haplotype genotyping from long-read sequencing data (e.g., ON
 ## Notes & Limitations
 - **Proof-of-Concept**: This script is designed for a **single sample and single locus**. It serves as a core module for building batch-processing pipelines.
 - **SAM Format Required**: Convert BAM to SAM if necessary.
+
 - **Parameter Adjustment**: Users may need to adjust paths and the ADR threshold based on their specific data characteristics.
